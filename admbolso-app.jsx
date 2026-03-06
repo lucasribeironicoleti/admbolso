@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 //  CONFIGURAÇÃO SUPABASE — troque pelos seus valores
 // ============================================================
 const SUPABASE_URL = "https://jtxlmtelavnjzykiuxxy.supabase.co";
-const SUPABASE_KEY = "sb_publishable_3ySKeND6uA10iMiZGpx_UA_yiq3VXLe";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp0eGxtdGVsYXZuanp5a2l1eHh5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI3NTU1MDQsImV4cCI6MjA4ODMzMTUwNH0.xxRkCUU5MlMTaMOMI8e6djHHjzPXQwWVQBS27iWyO9c";
 
 async function sbFetch(path, opts = {}) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1${path}`, {
